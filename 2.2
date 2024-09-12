@@ -1,0 +1,8 @@
+full_number = int(input("Введите 5 значное число:"))
+numb1 = full_number % 10
+numb2 = full_number % 100 // 10
+numb3 = full_number % 1000 // 100
+numb4 = full_number % 10000 // 1000
+numb5 = full_number // 10000
+revers_num = numb1 * 10000 + numb2 * 1000 + numb3 * 100 + numb4 * 10 + numb5
+print(revers_num)
